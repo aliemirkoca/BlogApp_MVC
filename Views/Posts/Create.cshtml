@@ -1,0 +1,34 @@
+@model PostCreateViewModel
+
+<div class="row">
+    <div class="bg-white p-4">
+        <div class="col-12">
+            <h1>Post Oluştur</h1>
+            <form action="Create" method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="mb-3">
+                    <label asp-for="Title" class="form-label"></label>
+                    <input asp-for="Title" class="form-control">
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Descrition" class="form-label"></label>
+                    <input asp-for="Descrition" class="form-control">
+                    <span asp-validation-for="Descrition" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Url" class="form-label"></label>
+                    <input asp-for="Url" class="form-control">
+                    <span asp-validation-for="Url" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Content" class="form-label"></label>
+                    <textarea asp-for="Content" class="form-control"></textarea>
+                    <span asp-validation-for="Content" class="text-danger"></span>
+                </div>
+
+
+                <button type="submit" class="btn btn-primary">Oluştur</button>
+            </form>
+        </div>
+    </div>
