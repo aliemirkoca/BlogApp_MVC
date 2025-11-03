@@ -4,7 +4,7 @@ A blog platform built with **.NET 9 (MVC)**, **Entity Framework Core**, and **SQ
 
 ![.NET Version](https://img.shields.io/badge/.NET-9.0-blueviolet)
 ![Database](https://img.shields.io/badge/Database-SQLite-003B57)
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ## ✨ Features
+![License](https://img.shields.io/badge/license-MIT-blue.svg) 
 
 * **Post Management:** Full CRUD operations for blog posts.
 * **Authentication:** User registration and login using **.NET Core Identity**.
